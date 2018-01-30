@@ -1,6 +1,6 @@
 {
   "name": "angular-date-format",
-  "version": "0.2.4",
+  "version": "0.2.3",
   "description": "",
   "files": "dist",
   "main": "./bundles/angular-date-format.umd.js",
