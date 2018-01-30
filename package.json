@@ -1,7 +1,8 @@
 {
   "name": "angular-date-format",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "",
+  "files": "dist",
   "main": "./bundles/angular-date-format.umd.js",
   "module": "./angular-date-format.es5.js",
   "es2015": "./angular-date-format.js",
