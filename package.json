@@ -1,8 +1,7 @@
 {
   "name": "angular-date-format",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "",
-  "files": "dist",
   "main": "./bundles/angular-date-format.umd.js",
   "module": "./angular-date-format.es5.js",
   "es2015": "./angular-date-format.js",
@@ -49,6 +48,7 @@
     "lint:demo": "tslint --project src/demo/tsconfig.json -t verbose",
     "lint:lib": "tslint --project src/lib/tsconfig.lib.json -t verbose",
     "release": "standard-version",
+    "prepublish": "npm run build && cd dist",
     "docs": "compodoc -p tsconfig.doc.json -d docs",
     "size": "size-limit"
   },
