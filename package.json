@@ -48,7 +48,6 @@
     "lint:demo": "tslint --project src/demo/tsconfig.json -t verbose",
     "lint:lib": "tslint --project src/lib/tsconfig.lib.json -t verbose",
     "release": "standard-version",
-    "prepublish": "npm run build",
     "docs": "compodoc -p tsconfig.doc.json -d docs",
     "size": "size-limit"
   },
